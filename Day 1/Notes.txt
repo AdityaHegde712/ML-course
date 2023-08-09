@@ -1,0 +1,20 @@
+The ML process:
+* Data preprocessing
+    -Import and clean dataset
+    -Split into training and test sets
+* Modelling
+    -Building the model
+    -Training the model
+    -Making the predictions or doing the classifications
+* Evaluation
+    -Calculate performance metrics
+    -Make a verdict on that
+
+About feature scaling:
+You always apply feature scaling to a column individually, not across columns.
+This is because if you scale all of your features at once then it will make them more comparable
+which can cause overfitting in some cases (especially when using linear regression).
+
+Normalization - (Value - min)/(max - min), between 0 and 1
+Standardisation - (Value - min)/average, between -3 and 3 usually
+
